@@ -57,7 +57,25 @@ Geek-in-residence for protein trajectories and driving agents
 ## 📖 Publications (Auto-Fetched from Google Scholar)
 
 <!--START_PUBS-->
+* **[A comprehensive guide to explainable ai: From classical models to llms](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:roLk4NBRz8UC)**  
+  _2024 · arXiv preprint arXiv:2412.00800, 2024_  
+  [PDF](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:roLk4NBRz8UC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13155714148754437484) `6`
 
+* **[Deep Learning Model Security: Threats and Defenses](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:eQOLeE2rZwMC)**  
+  _2024 · arXiv preprint arXiv:2412.08969, 2024_  
+  [PDF](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:eQOLeE2rZwMC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6825434405267938371) `1`
+
+* **[Deep Learning, Machine Learning, Advancing Big Data Analytics and Management](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:Tyk-4Ss8FVUC)**  
+  _2024 · arXiv preprint arXiv:2412.02187, 2024_  
+  [PDF](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:Tyk-4Ss8FVUC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1919913204154309700) `1`
+
+* **[StyleDrive: Towards Driving-Style Aware Benchmarking of End-To-End Autonomous Driving](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C)**  
+  _2025 · arXiv preprint arXiv:2506.23982, 2025_  
+  [PDF](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C) · [Citations](#) `None`
+
+* **[Exploring Multimodal Embeddings for Text and Impact on Language Processing](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:hqOjcs7Dif8C)**  
+  _2025 · Unknown Venue_  
+  [PDF](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:hqOjcs7Dif8C) · [Citations](#) `None`
 <!--END_PUBS-->
 
 
