@@ -2,9 +2,10 @@ import requests
 import os
 
 # ====== 配置 ======
-API_KEY = os.getenv("SERP_API_KEY", "b388e707537ac77f20b7f5402f8bf4f932823a2ea1f2e04445c8224d6429fa24")  # ⚠️ 本地运行时可直接写 API key
+API_KEY = os.getenv("SERP_API_KEY", "MISSING_KEY")
+
 SCHOLAR_ID = "7ICz8uAAAAAJ"
-README_PATH = "README.md"
+README_PATH = "../README.md"
 START_TAG = "<!--START_PUBS-->"
 END_TAG = "<!--END_PUBS-->"
 
