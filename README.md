@@ -1,6 +1,6 @@
 <h1 align="center">🔍 Bowen Jing • MSc AI Researcher</h1>
 <p align="center">
-  <strong>🚘 Autonomous Driving • 🧬 Protein Diffusion Models • 📚 Relation Extraction</strong><br><br>
+  <strong>🚘 Autonomous Driving • 🧬 Diffusion Models • 📚 LLM</strong><br><br>
 
   <a href="https://arthur12137.com">
     <img alt="Website" src="https://img.shields.io/badge/Website-arthur12137.com-informational?style=flat&logo=googlechrome&logoColor=white&color=blue" />
@@ -54,7 +54,7 @@ Geek-in-residence for protein trajectories and driving agents
 
 ---
 
-## 📖 Publications (Auto-Fetched from Google Scholar)
+## 📖 Publications
 
 <!--START_PUBS-->
 * **[A comprehensive guide to explainable ai: From classical models to llms](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&pagesize=5&citation_for_view=7ICz8uAAAAAJ:roLk4NBRz8UC)**  
