@@ -24,9 +24,19 @@ jobs:
       run: python scripts/update_scholar.py
 
     - name: Commit & Push
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}   # 仓库 Settings → Secrets → Actions 中添加
       run: |
-        git config user.name "ScholarBot"
-        git config user.email "bot@github.com"
+        git config user.name "Bowen12137"
+        git config user.email "arthur12137@gmail.com"
+        git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
+    
         git add README.md
+    
+        # 如果没有改动，则退出 workflow
+        git diff --cached --quiet && echo "✅ No changes to commit" && exit 0
+    
         git commit -m "📚 auto-update publications"
-        git push
+        git push origin main
+
+
