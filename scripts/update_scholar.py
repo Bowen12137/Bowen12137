@@ -39,7 +39,7 @@ def fetch_publications():
         cited_link = cited_info.get("link", "#")
 
         markdown_block = (
-            f"* **[{title}]({link})**  \n"
+            f"* 🎉🎉**[{title}]({link})**  \n"
             f"  _{year} · {venue}_  \n"
             f"  [PDF]({link}) · [Citations]({cited_link}) `{cited_num}`"
         )
