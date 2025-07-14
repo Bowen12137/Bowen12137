@@ -5,7 +5,8 @@ import os
 API_KEY = os.getenv("SERP_API_KEY", "MISSING_KEY")
 
 SCHOLAR_ID = "7ICz8uAAAAAJ"
-README_PATH = "../README.md"
+README_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "README.md"))
+
 START_TAG = "<!--START_PUBS-->"
 END_TAG = "<!--END_PUBS-->"
 
