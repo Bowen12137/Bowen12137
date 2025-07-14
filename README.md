@@ -57,7 +57,7 @@ Geek-in-residence for protein trajectories and driving agents
 ## 📖 Publications (Auto-Fetched from Google Scholar)
 
 <!--START_PUBS-->
-* Loading latest publications...
+
 <!--END_PUBS-->
 
 
