@@ -1,0 +1,32 @@
+name: Update Google Scholar Publications
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天 10:00 北京时间自动运行
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install Dependencies
+      run: pip install beautifulsoup4 requests
+
+    - name: Update README from Google Scholar
+      run: python scripts/update_scholar.py
+
+    - name: Commit & Push
+      run: |
+        git config user.name "ScholarBot"
+        git config user.email "bot@github.com"
+        git add README.md
+        git commit -m "📚 auto-update publications"
+        git push
