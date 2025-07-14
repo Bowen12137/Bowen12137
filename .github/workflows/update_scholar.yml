@@ -24,13 +24,15 @@ jobs:
         run: pip install beautifulsoup4 requests
     
       - name: Update README from Google Scholar
+        env:
+          SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
         run: python scripts/update_scholar.py
+
     
       # 2. Commit & Push
       - name: Commit & Push
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}       # 你的 PAT
-          SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
         run: |
           git config user.name  "Bowen12137"
           git config user.email "arthur12137@gmail.com"
