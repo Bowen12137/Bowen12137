@@ -7,14 +7,19 @@ START_TAG = "<!--START_PUBS-->"
 END_TAG = "<!--END_PUBS-->"
 
 def fetch_publications():
-    response = requests.get(GOOGLE_SCHOLAR_URL)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    }
+    response = requests.get(GOOGLE_SCHOLAR_URL, headers=headers)
     soup = BeautifulSoup(response.text, "html.parser")
+
     titles = soup.select(".gsc_a_t a")
+    years = soup.select(".gsc_a_y span")
     links = ["https://scholar.google.com" + a['href'] for a in titles]
+
     pubs = []
-    for a, link in zip(titles, links):
-        title = a.get_text()
-        pubs.append(f"* [{title}]({link})")
+    for title, link, year in zip(titles, links, years):
+        pubs.append(f"* [{title.text}]({link}) `{year.text}`")
     return pubs[:5]  # Top 5
 
 def update_readme(pubs):
