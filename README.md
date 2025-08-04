@@ -46,7 +46,6 @@ Geek-in-residence for protein trajectories and driving agents
 
 | 🔗 Title                                                                        | ✏️ Summary                                                                             |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| **[MolecularDiffusionMD(under construction)](https://github.com/Bowen12137/MolecularDiffusionMD)**  | Diffusion-based simulation for 3D molecular motion; co-authored with Hannes Stärk      |
 | **[TACRED-Plus(under construction)](https://github.com/Bowen12137/TACRED-Plus)**                    | Re-constructed TACRED with sentence-level context, few-shot support, and bias analysis |
 | **[StyleDrive(under construction)](https://github.com/Bowen12137/StyleDrive)**                      | Personalized trajectory generation with diffusion in autonomous driving scenarios      |
 | **[Oil Seep Detection(under construction)](https://github.com/Bowen12137/Oil_Seep_Test)**           | SAR imagery + U-Net for environmental remote sensing and segmentation                  |
