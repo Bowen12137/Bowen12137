@@ -31,11 +31,11 @@
 ```bash
 > whoami
 Bowen Jing // MSc in AI @ University of Manchester
-Researcher in deep learning + simulation + NLP
-Geek-in-residence for protein trajectories and driving agents
+Researcher in Application of Deep Learning(Autonomous Driving & Robotics etc.)
+Geek-in-residence for driving trajectories and robot motions
 ```
 
-* ✨ Exploring Diffusion Models for Proteins & Trajectories
+* ✨ Exploring Diffusion Models for Generation(Scene, Trajectories, Motions...)
 * 🛴 Building GNN + RL agents for edge computing
 * 🔎 Relation Extraction using contextualized LLMs (TACRED++)
 * 📉 Published preprints on Explainable AI, Ethics in LLMs, and Public Impact of AI
@@ -46,7 +46,7 @@ Geek-in-residence for protein trajectories and driving agents
 
 | 🔗 Title                                                                        | ✏️ Summary                                                                             |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| **[TACRED-Plus(under construction)](https://github.com/Bowen12137/TACRED-Plus)**                    | Re-constructed TACRED with sentence-level context, few-shot support, and bias analysis |
+| **[TACRED-Plus(under construction)]([https://github.com/Bowen12137/TACRED-Plus](https://arxiv.org/pdf/2509.11374))**                    | Re-constructed TACRED with sentence-level context, few-shot support, and bias analysis |
 | **[StyleDrive(under construction)](https://github.com/Bowen12137/StyleDrive)**                      | Personalized trajectory generation with diffusion in autonomous driving scenarios      |
 | **[Oil Seep Detection(under construction)](https://github.com/Bowen12137/Oil_Seep_Test)**           | SAR imagery + U-Net for environmental remote sensing and segmentation                  |
 | **[Twitter COVID Analysis(under construction)](https://github.com/Bowen12137/Mining-Twitter-Data)** | ETL, BERT, sentiment classification and LDA on 100k tweets                             |
