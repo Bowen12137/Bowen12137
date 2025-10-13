@@ -1,6 +1,6 @@
 <h1 align="center">🔍 Bowen Jing • MSc AI Researcher</h1>
 <p align="center">
-  <strong>🚘 Autonomous Driving • 🧬 Diffusion Models • 📚 LLM</strong><br><br>
+  <strong>🚘 Autonomous Driving • 🧬 Diffusion Models • 📚 VLM • RL </strong><br><br>
 
   <a href="https://arthur12137.com">
     <img alt="Website" src="https://img.shields.io/badge/Website-arthur12137.com-informational?style=flat&logo=googlechrome&logoColor=white&color=blue" />
@@ -30,28 +30,24 @@
 
 ```bash
 > whoami
-Bowen Jing // MSc in AI @ University of Manchester
-Researcher in Application of Deep Learning(Autonomous Driving & Robotics etc.)
-Geek-in-residence for driving trajectories and robot motions
+Bowen Jing // MSc in AI @ The University of Manchester
+Researcher in the Application of Contemporary AI (Autonomous Driving & Robotics)
+Geek-in-residence for driving trajectories and robot motions 🚗🤖
+
+I’m fascinated by how intelligent agents can make the next right move in uncertain environments — not by chance, but by learning from the past and reasoning with cutting-edge AI. My work explores how diffusion models, multimodal reasoning, and embodied intelligence can push machines toward more adaptive, human-aligned decision-making.
 ```
 
-* ✨ Exploring Diffusion Models for Generation(Scene, Trajectories, Motions...)
-* 🛴 Building GNN + RL agents for edge computing
-* 🔎 Relation Extraction using contextualized LLMs (TACRED++)
-* 📉 Published preprints on Explainable AI, Ethics in LLMs, and Public Impact of AI
+🚗 Generating safety-critical driving scenarios using Diffusion Models (scene, trajectory, interaction)
 
----
+🤖 Developing embodied robotic agents with Vision-Language-Action (VLA) reasoning
 
-## 🔬 Selected Projects
+🧭 Integrating Diffusion and Reinforcement Learning for autonomous decision-making
 
-| 🔗 Title                                                                        | ✏️ Summary                                                                             |
-| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| **[TACRED-Plus(under construction)]([https://github.com/Bowen12137/TACRED-Plus](https://arxiv.org/pdf/2509.11374))**                    | Re-constructed TACRED with sentence-level context, few-shot support, and bias analysis |
-| **[StyleDrive(under construction)](https://github.com/Bowen12137/StyleDrive)**                      | Personalized trajectory generation with diffusion in autonomous driving scenarios      |
-| **[Oil Seep Detection(under construction)](https://github.com/Bowen12137/Oil_Seep_Test)**           | SAR imagery + U-Net for environmental remote sensing and segmentation                  |
-| **[Twitter COVID Analysis(under construction)](https://github.com/Bowen12137/Mining-Twitter-Data)** | ETL, BERT, sentiment classification and LDA on 100k tweets                             |
+🧩 Building multimodal perception systems combining VLMs and graph-based scene understanding
 
----
+📊 Publishing research on controllable generative models, simulation realism, and human–AI alignment in autonomy
+
+
 
 ## 📖 Publications
 
