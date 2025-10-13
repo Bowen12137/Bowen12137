@@ -103,9 +103,10 @@ dev: [Docker, Git, W&B, RunPod, Next.js, React, Firebase]
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&center=true&vCenter=true&width=800&lines=Simulating+Proteins+%F0%9F%92%AB;Driving+with+Diffusion+%F0%9F%9A%97;Extracting+Relations+from+Text+%F0%9F%93%9A;Explaining+Models+%F0%9F%94%8D;Deploying+Agents+on+the+Edge+%F0%9F%9A%80"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&center=true&vCenter=true&width=800&lines=Generating+Safety-Critical+Scenarios+%F0%9F%9A%97;Driving+with+Diffusion+Models+%F0%9F%94%A5;Reasoning+with+Vision-Language-Action+Agents+%F0%9F%A4%96;Mining+Driving+Preferences+from+Large+AV+Datasets+%F0%9F%93%88;Building+Embodied+Robotic+Intelligence+%F0%9F%A4%96"/>
 </p>
+
 
 ---
 
-> *"The boundary between simulation and reality is diffusion-dependent."*
+> *"The boundary between simulation and reality blurs as diffusion learns to dream the world."*
