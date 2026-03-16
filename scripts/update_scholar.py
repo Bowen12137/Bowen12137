@@ -1,84 +1,81 @@
-import requests
-import os
+import json
+from pathlib import Path
+from urllib.request import urlopen
 
-# ====== 配置 ======
-API_KEY = os.getenv("SERP_API_KEY", "MISSING_KEY")
-
-SCHOLAR_ID = "7ICz8uAAAAAJ"
-README_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "README.md"))
-
+SCHOLAR_JSON_URL = (
+    "https://cdn.jsdelivr.net/gh/Bowen12137/Bowen12137.github.io@google-scholar-stats/gs_data.json"
+)
+README_PATH = Path(__file__).resolve().parent.parent / "README.md"
 START_TAG = "<!--START_PUBS-->"
 END_TAG = "<!--END_PUBS-->"
+MAX_PUBLICATIONS = 5
 
 
-# ====== 获取 publication ======
 def fetch_publications():
-    params = {
-        "api_key": API_KEY,
-        "engine": "google_scholar_author",
-        "author_id": SCHOLAR_ID,
-        "num": 5
-    }
+    print(f"[INFO] Fetching citation data from {SCHOLAR_JSON_URL}...")
+    with urlopen(SCHOLAR_JSON_URL, timeout=30) as response:
+        data = json.load(response)
 
-    print("[INFO] Fetching publications from SerpAPI...")
-    res = requests.get("https://serpapi.com/search", params=params)
+    publications = list((data.get("publications") or {}).values())
+    publications.sort(
+        key=lambda pub: (
+            int(pub.get("num_citations", 0) or 0),
+            int((pub.get("bib") or {}).get("pub_year", 0) or 0),
+        ),
+        reverse=True,
+    )
 
-    if res.status_code != 200:
-        raise Exception(f"[ERROR] Failed to fetch data: {res.status_code} {res.text}")
-
-    data = res.json()
     pubs = []
-
-    for article in data.get("articles", []):
-        title = article.get("title")
-        link = article.get("link")
-        year = article.get("year", "n/a")
-        venue = article.get("publication") or "Unknown Venue"
-        cited_info = article.get("cited_by", {})
-        cited_num = cited_info.get("value", 0)
-        cited_link = cited_info.get("link", "#")
+    author_id = data.get("scholar_id", "7ICz8uAAAAAJ")
+    for pub in publications[:MAX_PUBLICATIONS]:
+        bib = pub.get("bib") or {}
+        title = bib.get("title", "Untitled")
+        year = bib.get("pub_year", "n/a")
+        venue = bib.get("citation") or bib.get("venue") or "Unknown Venue"
+        citations = pub.get("num_citations", 0)
+        paper_id = pub.get("author_pub_id", "")
+        pub_url = pub.get("pub_url") or (
+            f"https://scholar.google.com/citations?view_op=view_citation&hl=en&user={author_id}&citation_for_view={paper_id}"
+            if paper_id
+            else "#"
+        )
+        cited_url = pub.get("citedby_url") or "#"
+        if cited_url.startswith("/"):
+            cited_url = f"https://scholar.google.com{cited_url}"
 
         markdown_block = (
-            f"🎉🎉* **[{title}]({link})**  \n"
+            f"🎉🎉* **[{title}]({pub_url})**  \n"
             f"  _{year} · {venue}_  \n"
-            f"  [PDF]({link}) · [Citations]({cited_link}) `{cited_num}`"
+            f"  [Scholar]({pub_url}) · [Citations]({cited_url}) `{citations}`"
         )
         pubs.append(markdown_block)
 
-
     if not pubs:
-        print("[WARNING] No publications found.")
-    else:
-        print("[INFO] Publications fetched:")
-        for p in pubs:
-            print("  -", p.splitlines()[0])
+        raise RuntimeError("[ERROR] No publications found in scholar data.")
 
+    print("[INFO] Publications fetched:")
+    for p in pubs:
+        print("  -", p.splitlines()[0])
     return pubs
 
 
-# ====== 更新 README.md ======
 def update_readme(pubs):
-    with open(README_PATH, "r", encoding="utf-8") as f:
-        content = f.read()
-
+    content = README_PATH.read_text(encoding="utf-8")
     start = content.find(START_TAG)
     end = content.find(END_TAG)
     if start == -1 or end == -1:
-        raise Exception("❌ START_PUBS or END_PUBS tag not found in README.md")
+        raise RuntimeError("START_PUBS or END_PUBS tag not found in README.md")
 
     new_content = (
-        content[:start + len(START_TAG)] + "\n" +
-        "\n\n".join(pubs) + "\n" +
-        content[end:]
+        content[: start + len(START_TAG)]
+        + "\n"
+        + "\n\n".join(pubs)
+        + "\n"
+        + content[end:]
     )
-
-    with open(README_PATH, "w", encoding="utf-8") as f:
-        f.write(new_content)
-
+    README_PATH.write_text(new_content, encoding="utf-8")
     print("[INFO] README.md updated successfully.")
 
 
-# ====== 主函数入口 ======
 if __name__ == "__main__":
-    pubs = fetch_publications()
-    update_readme(pubs)
+    update_readme(fetch_publications())

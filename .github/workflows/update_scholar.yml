@@ -2,46 +2,34 @@ name: Update Google Scholar Publications
 
 on:
   schedule:
-    - cron: '0 2 1 * *'  # 每天 10:00 北京时间自动运行
+    - cron: '0 2 * * 0'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 取代码，但不保留默认 Bot 凭证
-      - uses: actions/checkout@v3
-        with:
-          persist-credentials: false      # <— 关键
-    
+      - uses: actions/checkout@v4
+
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.9"
-    
-      - name: Install Dependencies
-        run: pip install beautifulsoup4 requests
-    
-      - name: Update README from Google Scholar
-        env:
-          SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
+          python-version: '3.11'
+
+      - name: Update README from Google Scholar data
         run: python scripts/update_scholar.py
 
-    
-      # 2. Commit & Push
       - name: Commit & Push
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}       # 你的 PAT
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name  "Bowen12137"
-          git config user.email "arthur12137@gmail.com"
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
-    
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --cached --quiet && echo "✅ No changes" && exit 0
-          git commit -m "📚 auto-update publications"
-          git push origin main
-
-
-
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "docs: update scholar publications"
+          git push origin HEAD:${{ github.ref_name }}
