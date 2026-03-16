@@ -59,6 +59,60 @@ class BowenJing:
 
 ---
 
+## `neofetch`
+
+```bash
+$ neofetch bowen_jing
+
+bowen@research-lab
+------------------
+OS: Manchester / Embodied Intelligence Lab
+Kernel: Generative World Models
+Shell: zsh
+Uptime: Always building
+Host: Autonomous Driving + Robotics
+IDE: VS Code / Jupyter / Terminal
+Languages: Python, C++, TypeScript, SQL, LaTeX
+Learning: Diffusion, World Models, Causality, Planning
+Status: shipping ideas into simulators
+Motto: "model the world, then move in it"
+```
+
+## `research.toml`
+
+```toml
+[identity]
+name = "Bowen Jing"
+title = "Researcher in Generative AI and Embodied Intelligence"
+location = "University of Manchester"
+mode = "researcher-builder"
+
+[core]
+question = "How can generative models learn world dynamics for embodied decision-making?"
+stack = ["diffusion", "world_models", "causal_reasoning", "robotics", "autonomous_driving"]
+taste = ["first_principles", "clean_systems", "interactive_simulation"]
+
+[runtime]
+currently_building = [
+  "diffusion-based world simulation",
+  "interactive environment modeling",
+  "counterfactual reasoning for agents",
+]
+long_term_goal = "true intelligence grounded in physical environments"
+```
+
+## `~/now`
+
+```text
+[focus]      Generative world models for embodied agents
+[shipping]   Driving scene generation / trajectory modeling / simulation realism
+[debugging]  How intelligence emerges from internal models of the world
+[obsession]  Prediction, causality, planning, interaction
+[energy]     high
+```
+
+---
+
 ## Research Identity
 
 My research focuses on **generative world models** for embodied agents. I study how **diffusion-based generative models** can model and simulate complex interactive environments, enabling intelligent agents to **reason, predict, and act** in the physical world.
@@ -141,6 +195,64 @@ I combine ideas from `Cognitive Science`, `Generative Modeling`, and `Causal Rea
     </td>
   </tr>
 </table>
+
+---
+
+## `system_monitor.py`
+
+```python
+research_process = {
+    "inputs": [
+        "videos",
+        "trajectories",
+        "multimodal observations",
+        "interactive environments",
+    ],
+    "compiler": [
+        "first-principles thinking",
+        "causal reasoning",
+        "diffusion modeling",
+        "embodied decision making",
+    ],
+    "outputs": [
+        "world models",
+        "counterfactual rollouts",
+        "safer autonomous systems",
+        "agents that can plan in the real world",
+    ],
+}
+```
+
+## `if __name__ == "__main__":`
+
+```python
+def main():
+    while True:
+        observe_world()
+        model_dynamics()
+        imagine_futures()
+        evaluate_counterfactuals()
+        build_intelligence()
+```
+
+## Terminal Aesthetic
+
+```bash
+$ sudo apt install true-intelligence
+[sudo] password for bowen:
+Reading package lists... Done
+Building dependency tree... Done
+The following new packages will be installed:
+  world-models causality embodied-agents long-horizon-planning
+0 upgraded, 4 newly installed, 0 to remove.
+
+Setting up world-models...
+Setting up causality...
+Setting up embodied-agents...
+Setting up long-horizon-planning...
+
+>> system ready for reality
+```
 
 ---
 
