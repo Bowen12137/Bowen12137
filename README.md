@@ -313,6 +313,10 @@ tooling:
 
 ---
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bowen12137&theme=react-dark&hide_border=true&area=true&color=00c2ff&line=00c2ff&point=ffffff" width="100%" />
+
+---
+
 ## Connect
 
 <div align="center">
@@ -335,5 +339,9 @@ To build AI systems that can **model, understand, and interact with the real wor
 <br/>
 
 `predict the future` • `understand causality` • `interact with the world` • `plan under uncertainty`
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/Bowen12137/Bowen12137/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
 
 </div>
