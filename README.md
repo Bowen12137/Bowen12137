@@ -259,25 +259,21 @@ Setting up long-horizon-planning...
 ## Publications
 
 <!--START_PUBS-->
-🎉🎉* **[A comprehensive guide to explainable AI: from classical models to LLMs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:roLk4NBRz8UC)**  
-  _2024 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:roLk4NBRz8UC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13155714148754437484) `45`
-
-🎉🎉* **[Deep learning model security: Threats and defenses](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:r0BpntZqJG4C)**  
-  _2024 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:r0BpntZqJG4C) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6825434405267938371) `13`
-
 🎉🎉* **[StyleDrive: Towards Driving-Style Aware Benchmarking of End-To-End Autonomous Driving](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C)**  
   _2025 · Unknown Venue_  
   [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15072510497439695733) `12`
 
-🎉🎉* **[Generative adversarial networks bridging art and machine intelligence](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:TFP_iSt0sucC)**  
-  _2025 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:TFP_iSt0sucC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8605051036785389911) `8`
+🎉🎉* **[Recondrive: Fast feed-forward 4d gaussian splatting for autonomous driving scene reconstruction](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:NMxIlDl6LWMC)**  
+  _2026 · Unknown Venue_  
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:NMxIlDl6LWMC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5280221281163158785) `1`
 
-🎉🎉* **[Deep learning, machine learning, advancing big data analytics and management](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:bEWYMUwI8FkC)**  
-  _2024 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:bEWYMUwI8FkC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1919913204154309700) `8`
+🎉🎉* **[CounterScene: Counterfactual Causal Reasoning in Generative World Models for Safety-Critical Closed-Loop Evaluation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:GnPB-g6toBAC)**  
+  _2026 · Unknown Venue_  
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:GnPB-g6toBAC) · [Citations](#) `0`
+
+🎉🎉* **[Transformer Enhanced Relation Classification: A Comparative Analysis of Contextuality, Data Efficiency and Sequence Complexity](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:hFOr9nPyWt4C)**  
+  _2025 · Unknown Venue_  
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:hFOr9nPyWt4C) · [Citations](#) `0`
 <!--END_PUBS-->
 
 ---
