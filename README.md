@@ -261,11 +261,11 @@ Setting up long-horizon-planning...
 <!--START_PUBS-->
 🎉🎉* **[StyleDrive: Towards Driving-Style Aware Benchmarking of End-To-End Autonomous Driving](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C)**  
   _2025 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15072510497439695733) `13`
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15072510497439695733) `14`
 
 🎉🎉* **[Recondrive: Fast feed-forward 4d gaussian splatting for autonomous driving scene reconstruction](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:NMxIlDl6LWMC)**  
   _2026 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:NMxIlDl6LWMC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5280221281163158785) `3`
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:NMxIlDl6LWMC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5280221281163158785) `4`
 
 🎉🎉* **[CounterScene: Counterfactual Causal Reasoning in Generative World Models for Safety-Critical Closed-Loop Evaluation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:GnPB-g6toBAC)**  
   _2026 · Unknown Venue_  
