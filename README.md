@@ -261,23 +261,23 @@ Setting up long-horizon-planning...
 <!--START_PUBS-->
 🎉🎉* **[StyleDrive: Towards Driving-Style Aware Benchmarking of End-To-End Autonomous Driving](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C)**  
   _2025 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15072510497439695733) `16`
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17714009862107683166) `18`
 
 🎉🎉* **[Recondrive: Fast feed-forward 4d gaussian splatting for autonomous driving scene reconstruction](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:NMxIlDl6LWMC)**  
   _2026 · Unknown Venue_  
   [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:NMxIlDl6LWMC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5280221281163158785) `5`
 
+🎉🎉* **[SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:lSLTfruPkqcC)**  
+  _2026 · Unknown Venue_  
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:lSLTfruPkqcC) · [Citations](#) `0`
+
+🎉🎉* **[ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:ns9cj8rnVeAC)**  
+  _2026 · Unknown Venue_  
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:ns9cj8rnVeAC) · [Citations](#) `0`
+
 🎉🎉* **[SoftVTBench: A Safety-Aware Visuo-Tactile Benchmark for Physically Constrained Robotic Manipulation of Deformable Objects](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:O3NaXMp0MMsC)**  
   _2026 · Unknown Venue_  
   [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:O3NaXMp0MMsC) · [Citations](#) `0`
-
-🎉🎉* **[CounterScene: Counterfactual Causal Reasoning in Generative World Models for Safety-Critical Closed-Loop Evaluation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:GnPB-g6toBAC)**  
-  _2026 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:GnPB-g6toBAC) · [Citations](#) `0`
-
-🎉🎉* **[Transformer Enhanced Relation Classification: A Comparative Analysis of Contextuality, Data Efficiency and Sequence Complexity](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:hFOr9nPyWt4C)**  
-  _2025 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:hFOr9nPyWt4C) · [Citations](#) `0`
 <!--END_PUBS-->
 
 ---
