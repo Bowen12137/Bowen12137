@@ -267,13 +267,13 @@ Setting up long-horizon-planning...
   _2026 · Unknown Venue_  
   [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:NMxIlDl6LWMC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5280221281163158785) `5`
 
+🎉🎉* **[ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:ns9cj8rnVeAC)**  
+  _2026 · Unknown Venue_  
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:ns9cj8rnVeAC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17850308080985633792) `1`
+
 🎉🎉* **[SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:lSLTfruPkqcC)**  
   _2026 · Unknown Venue_  
   [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:lSLTfruPkqcC) · [Citations](#) `0`
-
-🎉🎉* **[ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:ns9cj8rnVeAC)**  
-  _2026 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:ns9cj8rnVeAC) · [Citations](#) `0`
 
 🎉🎉* **[SoftVTBench: A Safety-Aware Visuo-Tactile Benchmark for Physically Constrained Robotic Manipulation of Deformable Objects](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:O3NaXMp0MMsC)**  
   _2026 · Unknown Venue_  
