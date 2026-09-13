@@ -259,25 +259,25 @@ Setting up long-horizon-planning...
 ## Publications
 
 <!--START_PUBS-->
+🎉🎉* **[A comprehensive guide to explainable AI: from classical models to LLMs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:HoB7MX3m0LUC)**  
+  _2024 · arXiv preprint arXiv:2412.00800, 2024_  
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:HoB7MX3m0LUC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13155714148754437484) `68`
+
 🎉🎉* **[StyleDrive: Towards Driving-Style Aware Benchmarking of End-To-End Autonomous Driving](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C)**  
-  _2025 · Unknown Venue_  
+  _2025 · AAAI 2026 oral, 2025_  
   [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:UebtZRa9Y70C) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17714009862107683166) `18`
 
+🎉🎉* **[Deep learning model security: Threats and defenses](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:ldfaerwXgEUC)**  
+  _2024 · arXiv preprint arXiv:2412.08969, 2024_  
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:ldfaerwXgEUC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6825434405267938371) `16`
+
+🎉🎉* **[Generative adversarial networks bridging art and machine intelligence](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:g5m5HwL7SMYC)**  
+  _2025 · arXiv preprint arXiv:2502.04116, 2025_  
+  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:g5m5HwL7SMYC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8605051036785389911) `10`
+
 🎉🎉* **[Recondrive: Fast feed-forward 4d gaussian splatting for autonomous driving scene reconstruction](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:NMxIlDl6LWMC)**  
-  _2026 · Unknown Venue_  
+  _2026 · arXiv preprint arXiv:2603.07552, 2026_  
   [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:NMxIlDl6LWMC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5280221281163158785) `5`
-
-🎉🎉* **[ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:ns9cj8rnVeAC)**  
-  _2026 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:ns9cj8rnVeAC) · [Citations](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17850308080985633792) `1`
-
-🎉🎉* **[SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:lSLTfruPkqcC)**  
-  _2026 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:lSLTfruPkqcC) · [Citations](#) `0`
-
-🎉🎉* **[SoftVTBench: A Safety-Aware Visuo-Tactile Benchmark for Physically Constrained Robotic Manipulation of Deformable Objects](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:O3NaXMp0MMsC)**  
-  _2026 · Unknown Venue_  
-  [Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7ICz8uAAAAAJ&citation_for_view=7ICz8uAAAAAJ:O3NaXMp0MMsC) · [Citations](#) `0`
 <!--END_PUBS-->
 
 ---
